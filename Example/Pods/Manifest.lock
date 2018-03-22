@@ -1,0 +1,16 @@
+PODS:
+  - ZZCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - ZZCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZZCategoryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZZCategoryKit: 7f30e197f255c0809999c56d73fb513df986916a
+
+PODFILE CHECKSUM: 281033fa51135f7576f851e6e3672bf36d0031ca
+
+COCOAPODS: 1.4.0.rc.1

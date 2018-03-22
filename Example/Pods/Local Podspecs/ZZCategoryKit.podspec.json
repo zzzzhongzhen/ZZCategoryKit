@@ -1,0 +1,22 @@
+{
+  "name": "ZZCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of ZZCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zzzzhongzhen/ZZCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zzzzhongzhen": "1099384765@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zzzzhongzhen/ZZCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZZCategoryKit/Classes/**/*"
+}

@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03FD0B6224F112A0B08247B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0AC91FFE562E6C3A6C4966D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03FD0B6224F112A0B08247B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0AC91FFE562E6C3A6C4966D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1B554FB14EEDCC66F5C87DDD /* Pods-ZZCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZCategoryKit_Example/Pods-ZZCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3EC9A469BFFC3EBF907B5155 /* Pods-ZZCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCategoryKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZCategoryKit_Example/Pods-ZZCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4638D3BA4114C803B9CF1968 /* Pods_ZZCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8417E93EE7CA4887FE9E3820 /* Pods-ZZCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZCategoryKit_Tests/Pods-ZZCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88B9D4D370CE8F4A759E8CE2 /* ZZCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZCategoryKit.podspec; path = ../ZZCategoryKit.podspec; sourceTree = "<group>"; };
+		88B9D4D370CE8F4A759E8CE2 /* ZZCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZCategoryKit.podspec; path = ../ZZCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D5327A4CD2C4468FE9253FF7 /* Pods-ZZCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCategoryKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZCategoryKit_Tests/Pods-ZZCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zzzzhongzhen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 724ZVM24U8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,6 +536,7 @@
 			baseConfigurationReference = 1B554FB14EEDCC66F5C87DDD /* Pods-ZZCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 724ZVM24U8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZCategoryKit/ZZCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "ZZCategoryKit/ZZCategoryKit-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = 3EC9A469BFFC3EBF907B5155 /* Pods-ZZCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 724ZVM24U8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZCategoryKit/ZZCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "ZZCategoryKit/ZZCategoryKit-Info.plist";
